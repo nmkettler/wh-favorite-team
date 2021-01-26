@@ -6,7 +6,7 @@ const About = () => {
   
   return (
     <section className="section about-section">
-      <h1 className="section-title">About Man City</h1>
+      <h1 className="section-title">About Manchester City</h1>
       <p>
         {team.about}
       </p>

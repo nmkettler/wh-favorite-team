@@ -35,10 +35,10 @@ const Visit = () => {
       <hr></hr>
       <div className="social-media">
         <div className="rounded-social-buttons">
-          <a className="social-button facebook" href={`https://${team.facebook}`} target="_blank"><FontAwesomeIcon icon={faFacebook} /></a>
-          <a className="social-button twitter" href={`https://${team.twitter}`} target="_blank"><FontAwesomeIcon icon={faTwitter} /></a>
-          <a className="social-button youtube" href={`https://${team.youtube}`} target="_blank"><FontAwesomeIcon icon={faYoutube} /></a>
-          <a className="social-button instagram" href={`https://${team.instagram}`} target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+          <a className="social-button facebook" href={`https://${team.facebook}`}><FontAwesomeIcon icon={faFacebook} /></a>
+          <a className="social-button twitter" href={`https://${team.twitter}`}><FontAwesomeIcon icon={faTwitter} /></a>
+          <a className="social-button youtube" href={`https://${team.youtube}`}><FontAwesomeIcon icon={faYoutube} /></a>
+          <a className="social-button instagram" href={`https://${team.instagram}`}><FontAwesomeIcon icon={faInstagram} /></a>
         </div>
       </div>
     </section>

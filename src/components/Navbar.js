@@ -4,7 +4,7 @@ import { useGlobalContext } from "../context";
 import { useWindowSize } from "@react-hook/window-size/";
 
 const Navbar = () => {
-  const [width, height] = useWindowSize({ fps: 60 });
+  const [width] = useWindowSize({ fps: 60 });
   const { team } = useGlobalContext();
   console.log(team)
   console.log(width)
